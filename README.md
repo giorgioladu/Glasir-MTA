@@ -209,7 +209,7 @@ Any standard IMAP/SMTP client works with Glasir. Configure it as follows:
 |---------|-------|
 | SMTP server | `127.0.0.1` |
 | SMTP port | `2525` |
-| SMTP auth | `PLAIN` or `LOGIN` |
+| SMTP auth | `PLAIN` |
 | IMAP server | `127.0.0.1` |
 | IMAP port | `143` |
 | Username | `yourname@your_yggdrasil_ipv6` |
@@ -265,7 +265,7 @@ Receiving nodes verify the stamp automatically in `session_ygg.go`. Messages arr
 
 ## TLS
 
-Glasir supports TLS for both SMTP (port 2525) and IMAP (port 143). To enable it, provide certificate and key paths in your configuration:
+Glasir supports TLS for both SMTP (port 2525) and IMAP (port 143). 
 Note that traffic between Glasir nodes travelling over Yggdrasil is already encrypted at the network layer. 
 TLS is most useful for the local SMTP and IMAP ports, to protect credentials between your mail client and the server.
 
