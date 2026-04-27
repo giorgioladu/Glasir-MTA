@@ -46,10 +46,10 @@ Yggdrasil must be running as a **system daemon** before starting Glasir-MTA. Gla
 ```bash
 git clone https://github.com/giorgioladu/Glasir-MTA
 cd Glasir-MTA
-go build ./cmd/yggmail/
+go build ./cmd/Glasir-MTA/
 ```
 
-The result is a single binary called `yggmail` in the project root.
+The result is a single binary called `Glasir-MTA` in the project root.
 
 ---
 
