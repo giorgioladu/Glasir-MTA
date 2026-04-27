@@ -236,7 +236,7 @@ Before a message is accepted for delivery, the sending server must solve a small
 The token format is:
 
 ```
-1:<bits>:<date>:<recipient>:<nonce>:<counter>
+1:<bits>;<date>;<recipient>;<nonce>;<counter>
 ```
 
 The result is attached to the message as a custom SMTP header:
